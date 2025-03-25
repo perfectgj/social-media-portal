@@ -22,7 +22,7 @@ This is a **social media portal** built with **Laravel** where users can:
 ## 🚀 Installation & Setup
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-repo/social-media-portal.git
+git clone https://github.com/perfectgj/social-media-portal.git
 cd social-media-portal
 ```
 
