@@ -12,7 +12,7 @@ This is a **social media portal** built with **Laravel** where users can:
 - Paginate Friends List
 
 ## 🛠️ Tech Stack Used
-- **Laravel** (Latest Version)
+- **Laravel 12.3.0** (Latest Version)
 - **Bootstrap 5** (Frontend Styling)
 - **MySQL / PostgreSQL** (Database)
 - **Laravel Queue Jobs** (For Email Notifications)
@@ -67,7 +67,7 @@ php artisan key:generate
 
 ### **5️⃣ Set Up the Database**
 ```bash
-php artisan migrate --seed
+php artisan migrate
 ```
 
 ### **6️⃣ Set Up Storage for Profile Pictures**
@@ -77,8 +77,6 @@ php artisan storage:link
 
 ### **7️⃣ Run Laravel Queue Jobs for Email Notifications**
 ```bash
-php artisan queue:table
-php artisan migrate
 php artisan queue:work
 ```
 
